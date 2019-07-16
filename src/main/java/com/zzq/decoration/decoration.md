@@ -20,3 +20,7 @@
 该类里面就有 InputStream 的属性，并且具有同一个父类
 
 代码参考文档： https://www.jianshu.com/p/baa9f36d8367
+
+
+### 思维导图
+![思维导图](装饰器模式.jpg)

@@ -27,7 +27,8 @@ public class LiBeauty extends Beauty {
 
     @Override
     void noticeAnyone(String msg) {
-        System.err.println(this.name + "====>" + msg +"===========>"+ new Date());
+        System.out.println(this.name + "====>" + msg +"===========>"+ new Date());
+
         for (LittleBoy boy : this.boys) {
             boy.receivedMsg(msg);
         }
